@@ -8,6 +8,7 @@
     --color-foot-tel: rgba(255, 255, 255, 0.6);
     --color-foot-mail: rgba(255, 255, 255, 0.6);
     --background-bottom: #2f303a;
+    --background-title: #2f303a;
 }
 
 body {
@@ -16,6 +17,19 @@ body {
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     color: var(--tekst-color-but1);
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1.4;
+    font-weight: 900;
+    color: var(--font-color-white);
+    position: absolute;
+}
+
+.title-box {
+    background-color: var(--background-title);
 }
 
 .logo {
@@ -27,6 +41,10 @@ body {
 }
 
 .logo1 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
     color: var(--active-color);
 }
 
@@ -84,9 +102,16 @@ body {
     background-color: var(--active-color);
 }
 
-.h3 {
+.studio {
     font-weight: 700px;
     line-height: 2;
+    text-transform: uppercase;
+}
+
+.port{
+    font-weight: 700px;
+    line-height: 2;
+    text-transform:capitalize;
 }
 
 .gallery {
