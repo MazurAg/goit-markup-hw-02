@@ -3,9 +3,10 @@
     --background-color: #e5e5e5;
     --tekst-color-but1: #212121;
     --font-color-white: #ffffff;
-    --background-color-but: #757575;
+    --background-color-but: #f5f4fa;
     --color-logo2: #000000;
-    --color-foot-link: rgba(255, 255, 255, 0.6);
+    --color-foot-tel: rgba(255, 255, 255, 0.6);
+    --color-foot-mail: rgba(255, 255, 255, 0.6);
     --background-bottom: #2f303a;
 }
 
@@ -55,12 +56,19 @@ body {
 .service {
     color: var(--tekst-color-but1);
     background-color: var(--font-color-white);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .service:hover,
 .service:focus {
     color: var(--font-color-white);
     background-color: var(--active-color);
+    border-radius: 4px;
+}
+
+.techno {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .menu-but .but {
@@ -91,10 +99,6 @@ body {
     background-color: var(--background-bottom);
 }
 
-.contact {
-    text-decoration: none;
-}
-
 .foot-logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -117,11 +121,22 @@ body {
     color: var(--active-color);
 }
 
-.foot-link {
+.foot-tel {
     line-height: 1.7;
-    color: var(--color-foot-link);
+    color: var(--color-foot-tel);
+    text-decoration: none;
 }
 
-.foot-link:hover {
+.foot-tel:hover {
+    color: var(--active-color);
+}
+
+.foot-mail {
+    line-height: 1.7;
+    color: var(--color-foot-mail);
+    text-decoration-line: underline;
+}
+
+.foot-mail:hover {
     color: var(--active-color);
 }
