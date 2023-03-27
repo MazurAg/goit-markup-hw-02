@@ -38,19 +38,11 @@ body {
 }
 
 .studio-black {
-    color: var(--color-up)
+    color: var(--color-up);
 }
 
 .studio-white {
     color: var(--font-color-white);
-}
-
-.logo1 {
-    font-family: 'Raleway';
-    font-weight: 700;
-    line-height: 1.2;
-    text-decoration: none;
-    color: var(--active-color);
 }
 
 .nav {
@@ -157,7 +149,8 @@ body {
     text-decoration: none;
 }
 
-.foot-tel:hover {
+.foot-tel:hover,
+.foot-tel:focus {
     color: var(--active-color);
 }
 
@@ -167,6 +160,7 @@ body {
     text-decoration-line: underline;
 }
 
-.foot-mail:hover {
+.foot-mail:hover,
+.foot-mail:focus {
     color: var(--active-color);
 }
